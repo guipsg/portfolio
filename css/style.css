@@ -121,10 +121,14 @@ background-attachment:fixed;
   border-left: 0.5px;
   color: #fff;
   text-decoration: none;
-  background: linear-gradient(-12deg, #006A68 0%, #00b5b200 50%);
+  background: #006A68;
 }
 
-
+#sobre .link1{
+  margin: 10px;
+  padding: 30px;
+  float: left!important;
+}
 
 .seta{
   height: 0%;
@@ -219,6 +223,7 @@ body::-webkit-scrollbar-thumb:hover {
   transition: transform 0.5s, border-radius 0.5s, filter 0.5s, box-shadow 0.5s;
   box-shadow: none;
   z-index: 0;
+ 
 }
 .cover-fig:hover,.cover-fig2:hover,.cover-fig3:hover,.cover-fig4:hover,.cover-fig5:hover,.cover-fig6:hover{
 
@@ -226,8 +231,9 @@ body::-webkit-scrollbar-thumb:hover {
   filter: blur(0px);
   border-radius: 50px;
   transform: scale(1.05);
-  box-shadow: 0px 10px 20px #f1f1f2;
+  box-shadow: 0px 10px 20px #006A68;
   z-index: 1;
+
 }
 .zoom1{
   transition: transform 0.5s;
@@ -250,15 +256,23 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 10px;
 }
 .cover-fig{
+  background-image: url("../images/Idle2.png");
+}.cover-fig:hover{
   background-image: url("../images/Idle2.gif");
 }
 .cover-fig2{
   background-image: url("../images/print3.png");
 }
 .cover-fig3{
+  background-image: url("../images/yokai.png");
+}
+.cover-fig3:hover{
   background-image: url("../images/samurai1.gif");
 }
 .cover-fig4{
+  background-image: url("../images/run1.png");
+}
+.cover-fig4:hover{
   background-image: url("../images/run1.gif");
 }
 .cover-fig5{
