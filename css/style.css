@@ -17,6 +17,10 @@ a:hover{
   color: #006A68;
 }
 
+.corTitle2{
+  color: #663efb;
+}
+
 .gradient1{
 background-image: url("../images/Bg.png");
 background-size: cover;
@@ -49,7 +53,7 @@ background-attachment:fixed;
 
 #sobre{margin-top: -0px;}
 #contato{padding-bottom: 20px;}
-#footer{padding: 20px; box-shadow: 0px -20px 25px 0px rgba(0,0,0,0.4);}
+#footer{padding: 60px 80px; box-shadow: 0px -20px 25px 0px rgba(0,0,0,0.4);}
 #projetos{padding-top: 80px; }
 #cover-2{box-shadow: inset 0px 20px 25px 0px rgba(0,0,0,0.4);padding-bottom: 50px;}
 #modelos{padding-bottom: 80px;}
@@ -63,7 +67,10 @@ background-attachment:fixed;
   border-right: 5px solid #006A68;
 }
 
-
+#footer .link{
+  padding: 30px;
+ width: 100%;
+}
 .menu{
   background: linear-gradient(to bottom, #1a1a1a 0%, #1a1a1a00 100%);
 }
@@ -89,15 +96,15 @@ background-attachment:fixed;
 }
 .link{
   border: solid;
-  border-color: #006A68;
+  border-color: #fff;
   font-weight: bold;
   border-top: 0.5px;
   border-left: 0.5px;
   padding: 15px;
-  color: #006A68;
+  color: #fff;
   transition: .25s ease-in-out;
   border-radius: 5px;
-  background: #00000080;
+  background: #663efb;
 }
 .link1{
   border: solid;
@@ -170,7 +177,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .ico{
   font-size: 15px;
-  float: right;
+  //float: right;
   color: #a1a1a1;
 }
 
@@ -178,12 +185,13 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 30px;
   color: #fff;
 }
-
+#projetos figcaption{
+  height: 40%;
+}
 .projimg{
-  width: 70px;
-  height: 70px;
-  margin-top: -50px;
-  margin-right: 20px;
+
+  height: 6em;
+  margin: 5% 5% 0% 5%;
   filter: grayscale(0%) drop-shadow(0px 0px 10px rgba(0,0,0,.5));
   transition: filter .25s ease-in-out;
   border-radius: 50px;
@@ -199,14 +207,26 @@ body::-webkit-scrollbar-thumb:hover {
 .projText{
   border-radius: 5px;
   margin-bottom: 20px;
+
   padding: 40px 40px 40px 40px;
   height: 500px;
   background-color: #161616;
   color: #F1F1F2;
 }
+
 #projetos .link1{
-  margin: 20px;
-  font-size: 20px;
+  font-size:2em;
+  padding: 20px;
+  margin:5% 0px 0px 20px;
+  //height: 10px;
+  border-radius: 20px;
+  border-color: #663efb;
+  border-width:thick;
+  color: #663efb;
+  text-align: center;
+}
+#projetos .link a{
+  text-align: center;
 }
 #modelos{
   padding: 80px;
@@ -219,7 +239,6 @@ body::-webkit-scrollbar-thumb:hover {
 .cover-fig,.cover-fig2,.cover-fig3,.cover-fig4,.cover-fig5,.cover-fig6,.cover-fig7{
   border-radius: 5px;
   padding: 40px 20px 20px 20px;
-  height: 500px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -287,7 +306,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .cover-fig6{
   background-image: url("../images/DT3-QUEST-PAISAGEM.jpg");
-  background-position: 20% 0%;
+  //background-position: 20% 0%;
 }
 .cover-fig7{
   background-image: url("../images/pistolhealer.png");
