@@ -208,7 +208,9 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 20px;
   font-size: 20px;
 }
-
+#modelos{
+  padding: 20px;
+}
 
 .cover-fig,.cover-fig2,.cover-fig3,.cover-fig4,.cover-fig5,.cover-fig6,.cover-fig7{
   border-radius: 5px;
@@ -225,7 +227,7 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 0;
 
 }
-.cover-fig:hover,.cover-fig2:hover,.cover-fig3:hover,.cover-fig4:hover,.cover-fig5:hover,.cover-fig6,.cover-fig7:hover{
+.cover-fig:hover,.cover-fig2:hover,.cover-fig3:hover,.cover-fig4:hover,.cover-fig5:hover,.cover-fig6:hover,.cover-fig7:hover{
 
   transition: transform 0.5s, border-radius 0.5s, filter 0.5s, box-shadow 0.5s;
   filter: blur(0px);
