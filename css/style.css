@@ -209,7 +209,11 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 20px;
 }
 #modelos{
-  padding: 20px;
+  padding: 80px;
+}
+
+#modelos a{
+  margin:20px 0px;
 }
 
 .cover-fig,.cover-fig2,.cover-fig3,.cover-fig4,.cover-fig5,.cover-fig6,.cover-fig7{
