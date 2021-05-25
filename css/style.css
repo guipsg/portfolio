@@ -210,7 +210,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
-.cover-fig,.cover-fig2,.cover-fig3,.cover-fig4,.cover-fig5,.cover-fig6{
+.cover-fig,.cover-fig2,.cover-fig3,.cover-fig4,.cover-fig5,.cover-fig6,.cover-fig7{
   border-radius: 5px;
   padding: 40px 20px 20px 20px;
   height: 500px;
@@ -223,9 +223,9 @@ body::-webkit-scrollbar-thumb:hover {
   transition: transform 0.5s, border-radius 0.5s, filter 0.5s, box-shadow 0.5s;
   box-shadow: none;
   z-index: 0;
- 
+
 }
-.cover-fig:hover,.cover-fig2:hover,.cover-fig3:hover,.cover-fig4:hover,.cover-fig5:hover,.cover-fig6:hover{
+.cover-fig:hover,.cover-fig2:hover,.cover-fig3:hover,.cover-fig4:hover,.cover-fig5:hover,.cover-fig6,.cover-fig7:hover{
 
   transition: transform 0.5s, border-radius 0.5s, filter 0.5s, box-shadow 0.5s;
   filter: blur(0px);
@@ -240,7 +240,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: scale(1);
 }
 .zoom1:hover{
-  transition: transform 0.5s; 
+  transition: transform 0.5s;
   transform: scale(1.1);
 }
 #cover-2 h2, #modelos h2{
@@ -283,6 +283,10 @@ body::-webkit-scrollbar-thumb:hover {
   background-image: url("../images/DT3-QUEST-PAISAGEM.jpg");
   background-position: 20% 0%;
 }
+.cover-fig7{
+  background-image: url("../images/pistolhealer.png");
+
+}
 .fundo-txt-fig{
   background: #00000090;
   padding: 20px 20px 20px 20px;
@@ -314,7 +318,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 576px) {
 
     #sobre{
-          
+
     }
     #sobre .himg{
       align-self:flex-end;
